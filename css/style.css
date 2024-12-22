@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/inknut-antiqua');
+@import url('https://fonts.cdnfonts.com/css/inria-sans');
+@import url('https://fonts.cdnfonts.com/css/inder');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page{
+    border: 96px solid #E4EBFF;
+    margin: 0 auto;
+}
+.header{
+    max-width: var(--container-max-width-desktop, 1280px);
+    align-items: center;
+    padding: 0px 32px;
+}
+.subtitle{
+    font-family: 'Inter', sans-serif;
+    padding-top: 96px;
+    color: #6941C6;
+    text-align: center;
+    font-size: var(--Font-size-text-md, 16px);
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px); /* 150% */
+}
+h1{
+    font-family: 'Inknut Antiqua', sans-serif;
+    text-align: center;
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: var(--Line-height-display-md, 44px); /* 110% */
+}
+.description{
+    margin-top: 32px;
+    font-family: 'Inria Sans', sans-serif;
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+.sectionOne{
+    max-width: 1280px;
+    width: 100%;
+    align-items: center;
+    padding: 0px var(--container-padding-desktop, 32px);
+    margin-top: 120px;
+    margin-bottom: 96px;
+}
+.h2{
+    font-family: 'Inter', sans-serif;
+    color: #181D27;
+    font-size: var(--Font-size-display-sm, 30px);
+    font-weight: 600;
+    line-height: var(--Line-height-display-sm, 38px); /* 126.667% */
+}
+.left{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 530px;
+    width: 100%;
+    margin-right: ;
+}
+.right{
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.leftHeading{
+    margin-bottom: 20px;
+}
+.supportingText{
+    color: #535862;
+    margin-top: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: var(--Line-height-text-lg, 28px); /* 155.556% */
+}
+.checkBox{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+.min{
+    margin-top: 20px;
+}
+
+.check{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.check-txt{
+    display: inline-block;
+    vertical-align: middle;
+    color: #535862;
+    font-weight: 400;
+    line-height: var(--Line-height-text-lg, 28px); /* 155.556% */
+    font-size: var(--Font-size-text-lg, 18px);
+    font-family: 'Inder', sans-serif;
+}
+
+.right-two-section{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 560px;
+    width: 100%;
+}
+.left-two-section{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+.section-three{
+    margin-top: 96px;
+    margin-bottom: 100px;
+}
+.left-three-section{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 550px;
+    width: 100%;
+    margin-left: 32px;
+}
+.left-three-section{
+    vertical-align: middle;
+    
+}
